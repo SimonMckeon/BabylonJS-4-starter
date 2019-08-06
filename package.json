@@ -1,0 +1,23 @@
+{
+  "name": "babylonjs-starter",
+  "version": "1.0.0",
+  "description": "A Typescript & Webpack starter for BabylonJS 4 projects.",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open --hot"
+  },
+  "keywords": [],
+  "author": "Simon McKeon <me@simonmckeon.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "babylonjs": "^4.0.3"
+  }
+}
